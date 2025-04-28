@@ -13,7 +13,9 @@ function home() {
                 })
                 .catch(() => {
                     window.location.href = window.location.origin;
-                })
+        })}
+        else{
+            window.location.href = window.location.origin;
         }
     }, []);
     function fetchPhoto(){
